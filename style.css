@@ -1,0 +1,116 @@
+
+p, h2, h3, h4 {
+  font-family: Lato;
+  padding: 4px;
+  margin: 0;
+}
+
+h1 {
+  font-family: Lato;
+  margin: 0;
+  font-size: 1.6em
+}
+
+body {
+  margin: 0;
+}
+
+.PokemonSearch {
+  display: flex;
+  height: 28px;
+  padding: 10px 7%;
+  background-color: #eee;
+  border-bottom: 1px #ccc solid;
+  justify-content: space-between;
+}
+
+.PokemonSearch .breathe {
+  margin: 0 5px;
+}
+
+.PokemonDetails {
+  margin: 20px auto;
+  padding: 0 10vw;
+}
+
+.PokemonDetails .main-details {
+  width: calc(100vw/5);
+  border: #555 solid 1px;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.PokemonDetails .column + .column {
+  margin-left: 60px;
+}
+
+.PokemonDetails h2, 
+.PokemonDetails h3 , 
+.PokemonDetails h4, 
+.PokemonDetails p {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.PokemonDetails abilities { 
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.PokemonDetails img {
+  background-color: white;
+}
+
+.PokemonDetails img:last-of-type { 
+  border-radius: 0 5px 5px 0;
+
+}
+.PokemonDetails img:first-of-type {
+  border-radius: 5px 0 0 5px;
+}
+
+.PokemonDetails .row + .row {
+  margin-top: 20px;
+}
+
+.PokemonDetails .subtitle + .row { 
+  margin-top: 8px;
+}
+
+.PokemonsContainer {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  padding: 8px 6%;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.center {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-flow: row;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.space-between {
+  justify-content: space-between; 
+}
+
+.space-around {
+  justify-content: space-around;
+}
