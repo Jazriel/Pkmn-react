@@ -15,6 +15,14 @@ body {
   margin: 0;
 }
 
+.PokemonCard {
+  box-sizing: border-box;
+  padding: 1em;
+  margin: 0.2em;
+  border: 1px #ccc solid;
+  border-radius: 5px;
+}
+
 .PokemonSearch {
   display: flex;
   height: 28px;
